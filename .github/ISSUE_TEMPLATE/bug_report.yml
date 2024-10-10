@@ -5,16 +5,16 @@ labels: ["bug"]
 body:
   - type: checkboxes
     attributes:
-      label: Please check existing knowledge before opening an issue.
+      label: Please check existing knowledge before opening an issue:
       options:
       - label: I have [checked the FAQ](https://foxxmd.github.io/multi-scrobbler/docs/FAQ/) and [documentation](https://foxxmd.github.io/multi-scrobbler/docs/configuration/)
         required: true
-      - label: I have [searched through existing issues](https://github.com/FoxxMD/multi-scrobbler/issues?q=sort%3Aupdated-desc)
+      - label: I have [searched through existing issues](https://github.com/FoxxMD/multi-scrobbler/issues?q=sort%3Aupdated-desc) and [discussions.](https://github.com/FoxxMD/multi-scrobbler/discussions)
         required: true
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        If this a how-do-I question, troublehooting, or generally **not** a bug/error with multi-scrobbler please consider [**starting a discussion**](https://github.com/FoxxMD/multi-scrobbler/discussions) instead of opening an issue.
   - type: textarea
     id: what-happened
     attributes:
