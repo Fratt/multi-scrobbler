@@ -5,7 +5,7 @@ labels: ["bug"]
 body:
   - type: checkboxes
     attributes:
-      label: Please check existing knowledge before opening an issue:
+      label: Please check existing knowledge before opening an issue
       options:
       - label: I have [checked the FAQ](https://foxxmd.github.io/multi-scrobbler/docs/FAQ/) and [documentation](https://foxxmd.github.io/multi-scrobbler/docs/configuration/)
         required: true
