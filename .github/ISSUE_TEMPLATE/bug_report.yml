@@ -1,8 +1,7 @@
 name: Bug Report
 description: Report a reproducible problem
-title: ""
+title: "bug: "
 labels: ["bug"]
-assignees: ''
 body:
   - type: checkboxes
     attributes:
@@ -37,12 +36,13 @@ body:
     validations:
       required: true
   - type: textarea
-    label: Versions
-    description: What version of multi-scrobbler and issue-related sources/clients are running?
-    placeholder: |
-      - multi-scrobbler: 0.8.3 on docker
-      - maloja 3.1.4
-      - jellyfin 10.8.9
+    attributes:
+      label: Versions
+      description: What version of multi-scrobbler and issue-related sources/clients are running?
+      placeholder: |
+        - multi-scrobbler: 0.8.3 on docker
+        - maloja 3.1.4
+        - jellyfin 10.8.9
     validations:
       required: true
   - type: textarea
