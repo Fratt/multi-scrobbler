@@ -115,7 +115,7 @@
     "vite-express": "^0.16.0",
     "vlc-client": "^1.1.1",
     "xml2js": "0.6.0",
-    "youtube-music-ts-api": "^1.7.0"
+    "youtube-music-ts-api": "1.7.0"
   },
   "devDependencies": {
     "@dbus-types/notifications": "^0.0.5",
@@ -182,6 +182,9 @@
       "tmp-promise": {
         "tmp": "0.2.1"
       }
+    },
+    "typescript-json-schema": {
+      "typescript": "5.5.4"
     }
   }
 }
